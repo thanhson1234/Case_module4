@@ -11,8 +11,9 @@ import java.util.List;
 public class StudenService implements IStudentService{
     @Autowired
     IStudentRepo iStudentRepo;
+
     @Override
-    public List<Account> getAllStudent() {
-        return (List<Account>) iStudentRepo.findAll();
+    public List<Account> getAllStudentByRole() {
+        return iStudentRepo.findByNameRole();
     }
 }

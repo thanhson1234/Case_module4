@@ -13,6 +13,6 @@ public class TeacherService implements ITeacherServicer{
     ITeacherRepo teacherRepo;
     @Override
     public List<Account> getAllTeacher() {
-        return (List<Account>) teacherRepo.findAll();
+        return (List<Account>) teacherRepo.getAllTeacher();
     }
 }
