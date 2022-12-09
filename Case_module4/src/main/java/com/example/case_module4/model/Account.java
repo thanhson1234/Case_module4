@@ -1,4 +1,4 @@
-package com.example.case_module4.Model;
+package com.example.case_module4.model;
 import lombok.Data;
 
 import javax.persistence.*;
