@@ -74,7 +74,8 @@ public class AccountSecive implements IUserService {
 
         }
 
-        ClassDto classDto = new ClassDto(nameClass, accounts1);
+
+        ClassDto classDto = new ClassDto(nameClass,nameClass);
         return classDto;
 
     }

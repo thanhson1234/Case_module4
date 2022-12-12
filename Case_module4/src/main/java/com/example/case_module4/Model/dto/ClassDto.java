@@ -1,37 +1,21 @@
 package com.example.case_module4.Model.dto;
 
 import com.example.case_module4.Model.Account;
+import com.example.case_module4.Model.Subjects;
+import com.example.case_module4.Model.ThePoint;
+import lombok.Data;
 
 import java.util.List;
-
+@Data
 public class ClassDto {
 
     private String nameClass;
 
     private List<Account> accounts;
 
+    private List<Subjects> subjects;
 
-    public ClassDto() {
-    }
+    private Double point;
 
-    public ClassDto(String nameClass, List<Account> accounts) {
-        this.nameClass = nameClass;
-        this.accounts = accounts;
-    }
-
-    public String getNameClass() {
-        return nameClass;
-    }
-
-    public void setNameClass(String nameClass) {
-        this.nameClass = nameClass;
-    }
-
-    public List<Account> getAccounts() {
-        return accounts;
-    }
-
-    public void setAccounts(List<Account> accounts) {
-        this.accounts = accounts;
-    }
+    private String status_hv;
 }
