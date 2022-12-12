@@ -8,6 +8,7 @@ import java.sql.Date;
 @Entity
 @Data
 public class Diary {
+
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private long id_Diary;

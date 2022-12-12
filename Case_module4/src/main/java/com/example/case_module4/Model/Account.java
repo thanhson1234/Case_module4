@@ -26,9 +26,7 @@ public class Account {
     @JoinColumn(name = "status_id")
     private Status_hv status_hv;
 
-    @ManyToMany(fetch = FetchType.EAGER)
-    private List<Class> classe ;
-
-
+    @OneToMany
+    private List<ClassRoom> classe ;
 
 }
