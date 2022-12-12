@@ -1,4 +1,4 @@
-package com.example.case_module4.service;
+package com.example.case_module4.service.Class;
 
 import com.example.case_module4.repository.IClassRepo;
 import org.springframework.beans.factory.annotation.Autowired;

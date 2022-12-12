@@ -1,4 +1,4 @@
-package com.example.case_module4.service;
+package com.example.case_module4.service.Teacher;
 
 import com.example.case_module4.model.Account;
 

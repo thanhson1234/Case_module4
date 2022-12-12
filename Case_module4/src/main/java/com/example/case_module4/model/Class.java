@@ -3,6 +3,7 @@ package com.example.case_module4.model;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Data
@@ -13,6 +14,6 @@ public class Class {
 
     private String name_Class;
 
-    private long id_Teacher;
+
 
 }
